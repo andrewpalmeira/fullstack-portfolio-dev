@@ -1,0 +1,48 @@
+header{
+  
+  width: 100%;
+  height: 750px;
+  background:url('../images/Background_Intro.png') no-repeat center center/cover; height: 100vh;
+}
+
+header div > img:first-of-type {
+  margin-top: 50px;
+}
+
+header:nth-child(1){
+  gap:20px;
+  div p:first-of-type{
+    margin-top: 56px;
+  }
+}
+
+.subtitle span{
+  color: var(--red)
+}
+
+#dev-description{
+  width: 680px;
+  margin-top:20px ;
+}
+
+#technologies{  
+  list-style: none;
+  grid-auto-flow: column;
+  gap: 16px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#technologies li{
+  background-color: var(--gray-300);
+  border-radius: 999px;
+  padding-inline: 16px;
+  padding-block: 8px;
+  display: flex;
+  align-items: center;
+}
+
+#technologies li img{
+  padding-right: 4px;
+}
